@@ -23,8 +23,18 @@
 │  ├─ simpleBEV_mini.ipynb
 │  └─ (추가 예정) simpleBEV_full.ipynb
 └─ results/
-   ├─ mini/png/
-   └─ full/png/
+   ├─ mini/png/sample_vis_mini/
+   │  ├─ rgb/
+   │  ├─ lidar/
+   │  └─ seg/
+   │     ├─ et/
+   │     └─ gt/
+   └─ full/png/sample_vis_full/
+      ├─ rgb/
+      ├─ lidar/
+      └─ seg/
+         ├─ et/
+         └─ gt/
 ```
 
 ## 의존성
@@ -48,5 +58,6 @@ python scripts/patch_simple_bev.py --repo /content/simple_bev
 ## 참고
 
 - 데이터/체크포인트/로그는 git에서 제외합니다(`.gitignore`).
-- 시각화 결과 PNG는 `results/mini/png/`와 `results/full/png/`에 저장합니다.
+- 시각화 결과 PNG는 `results/mini/png/sample_vis_mini/`와 `results/full/png/sample_vis_full/`에 저장합니다.
+- `seg/et`와 `seg/gt`를 나란히 두어 비교가 쉽도록 구성했습니다.
 - 이 레포는 Colab 전용 사용을 목표로 합니다.
