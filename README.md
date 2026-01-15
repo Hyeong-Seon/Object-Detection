@@ -12,7 +12,6 @@
 4) NuScenes 데이터 위치를 확인합니다.
    - `/content/drive/MyDrive/data/sets/nuscenes`
    - 필수 폴더: `maps/`, `samples/`, `sweeps/`, `v1.0-mini/`
-   - 메타데이터: `*.pkl`
 5) 셀을 위에서 아래로 순서대로 실행합니다.
 
 ## 디렉토리 구조
