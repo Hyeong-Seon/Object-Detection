@@ -1,0 +1,14 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch
+torchvision
+torchaudio
+numpy<2.0
+scipy<1.13.0
+nuscenes-devkit
+pyquaternion
+efficientnet-pytorch==0.7.1
+opencv-python
+tensorboard
+tensorboardX
+segmentation-models-pytorch
+lyft-dataset-sdk
