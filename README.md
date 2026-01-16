@@ -70,6 +70,23 @@ pip install -r requirements.txt
 python scripts/patch_simple_bev.py --repo /content/simple_bev
 ```
 
+## Citation
+
+If you use this code for your research, please cite:
+
+Simple-BEV: What Really Matters for Multi-Sensor BEV Perception?. Adam W. Harley, Zhaoyuan Fang, Jie Li, Rares Ambrus, Katerina Fragkiadaki. In arXiv:2206.07959.
+
+Bibtex:
+
+```bibtex
+@inproceedings{harley2022simple,
+  title={Simple-{BEV}: What Really Matters for Multi-Sensor BEV Perception?},
+  author={Adam W. Harley and Zhaoyuan Fang and Jie Li and Rares Ambrus and Katerina Fragkiadaki},
+  booktitle={arXiv:2206.07959},
+  year={2022}
+}
+```
+
 ## 참고
 
 - 데이터/체크포인트/로그는 git에서 제외합니다(`.gitignore`).
